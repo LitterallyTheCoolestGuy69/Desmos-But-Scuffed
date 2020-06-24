@@ -6,6 +6,7 @@ public class Function
 	Color c;
 	public Function(String eq)
 	{
+		this.eq = eq;
 	}
 	public double getValue(double x)
 	{
